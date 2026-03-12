@@ -49,8 +49,8 @@ Before you begin, ensure you have the following in your local environment:
 ### 1. Installation
 Clone the repository and deploy the system modules using the official installation script:
 ```bash
-git clone https://github.com/zuhtuEren/AsusPowerMaster.git
-cd AsusPowerMaster
+git clone https://github.com/zuhtuEren/asus-power-master.git
+cd asus-power-master
 sudo bash install.sh
 ```
 
