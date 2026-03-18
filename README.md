@@ -1,12 +1,12 @@
 # 💻 Asus Power Master: Hardware & Thermal Automation
 
-**Asus Power Master (v2.6 Final Gold)** is a modular, system-level automation tool designed for power users and security researchers. Bypassing heavy graphical interfaces, it utilizes the **Linux Kernel Sysfs interfaces** and Systemd services to bring hardware-level power, thermal, and profile management directly to your Kali or Debian Linux environment. Optimized specifically for **Asus Vivobook Pro 14X** and similar architectures.
+**Asus Power Master (v2.6 Stable)** is a modular, system-level automation tool designed for power users and system administrators. Bypassing heavy graphical interfaces, it utilizes the **Linux Kernel Sysfs interfaces** and Systemd services to bring hardware-level power, thermal, and profile management directly to your Kali or Debian Linux environment. Optimized specifically for **Asus Vivobook Pro 14X** and similar architectures.
 
 ---
 
 ## 🚀 Key Features
 
-* **🔋 Battery Health Guard:** Implements hardware-level charge thresholds (e.g., stopping at 80%) to drastically improve lithium battery longevity.
+* **🔋 Battery Health Guard:** Implements hardware-level charge thresholds (e.g., stopping at 80%) to extend lithium battery longevity.
 * **🚀 Performance & Thermal Control:** Dynamic on-the-fly toggling of Intel Turbo Boost and Fan profiles (Balanced, Overboost, Silent).
 * **🧠 Smart Watchdog (Monitor):** A background sentinel that instantly detects AC/Battery power state transitions and automatically deploys user-defined profiles.
 * **📊 Live Telemetry:** Deep visual metrics dashboard displaying real-time power consumption (Watts), CPU temperature, and active hardware states.
@@ -61,8 +61,8 @@ Directly control your hardware via simple switches:
 | :------------: | :-------: | :----------------------------------------------------: |
 | `-s, --status` | None      | Displays the live system telemetry dashboard.          |
 | `-b, --battery`| `[60-100]`| Sets the battery charge limit. Append `-p` to save.    |
-| `-t, --turbo`  | `[on|off]`| Toggles Intel CPU Turbo Boost. Append `-p` to save.    |
-| `-f, --fan`    | `[0|1|2]` | Fan Mode: `0` (Balanced), `1` (Overboost), `2` (Silent)|
+| `-t, --turbo`  | `[on,off]`| Toggles Intel CPU Turbo Boost. Append `-p` to save.    |
+| `-f, --fan`    | `[0-2]`   | Fan Mode: `0` (Balanced), `1` (Overboost), `2` (Silent)|
 | `-k, --keyboard`| `[0-3]`  | Sets keyboard backlight brightness level.              |
 | `--monitor`    | `[-k val]`| Starts the background smart watchdog daemon.           |
 
