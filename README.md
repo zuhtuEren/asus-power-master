@@ -1,4 +1,4 @@
-# 💻 Asus Power Master: Hardware & Thermal Automation
+# 🛡️ Asus ACPI Master: Low-Level Hardware & Thermal Overrides
 
 **Asus Power Master (v2.6 Stable)** is a modular, system-level automation tool designed for power users and system administrators. Bypassing heavy graphical interfaces, it utilizes the **Linux Kernel Sysfs interfaces** and Systemd services to bring hardware-level power, thermal, and profile management directly to your Kali or Debian Linux environment. Optimized specifically for **Asus Vivobook Pro 14X** and similar architectures.
 
